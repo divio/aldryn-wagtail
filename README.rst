@@ -16,17 +16,17 @@ Getting started
 Create the project
 ------------------
 
-* Login to the Co`Divio Cloud Control Panel <htpps://control.divio.com>`_.
+* Login to the `Divio Cloud Control Panel <htpps://control.divio.com>`_.
 * **Add new Project**
 
-This will redirect you to the "Add new Project" creation screen. In addition to choosing a *Name*
+This will redirect you to the *Add new Project* creation screen. In addition to choosing a *Name*
 for your project, the following options are required to get started with the guide:
 
-* Creation: New
-* Region: Choose United States or European Union
-* Python: Python 2.7.x
-* Type: Wagtail
-* Boilerplates: Blank Boilerplate
+* Creation: *New*
+* Region: Choose *United States* or *European Union*
+* Python: *Python 2.7.x* or Python *3.x*
+* Type: *Wagtail*
+* Boilerplates: *Blank Boilerplate*
 
 Hit **Create Project** and continue to the project’s Dashboard.
 
@@ -34,10 +34,12 @@ Hit **Create Project** and continue to the project’s Dashboard.
 Set up and run the project locally
 ----------------------------------
 
-Install and launch the Divio App
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Local set-up
+~~~~~~~~~~~~
 
-Select your project and hit Setup to get started. The Divio App will run through a number of
+Install and launch the `Divio App <https://www.divio.com/app>`_.
+
+Select your project and hit **Setup** to get started. The Divio App will run through a number of
 processes to set up the local project. It all happens automatically and takes just a few minutes.
 
 Once this process has completed, you can actually start the local site by getting the local server
@@ -49,12 +51,8 @@ This will open your project in your default browser. You should see the Wagtail 
 Launch the Divio Shell
 ~~~~~~~~~~~~~~~~~~~~~~
 
-If you're going to be using the local project as a development tool (it's ideal for this) you will
-want a shell that can interact with it.
-
-The *Divio Shell* option will set this all up for you. Just hit **Divio Shell**, and in a few
-moments you'll be in a terminal shell session, ready to work with your project from the command
-line too.
+Hit **Divio Shell**, and in a few moments you'll be in a terminal shell session, ready to work with
+your project from the command line.
 
 
 Create a new Wagtail page type
@@ -199,19 +197,18 @@ We also need to create a base template. In the folder templates, add a file base
 Create a new Wagtail page
 -------------------------
 
-* Login to the Django admin at http://192.168.99.100:8000/en/django-admin/. Create a new user by
-  hitting Add user and then sign in. (`Learn more about how this works
+* Login to the **Django admin** at`` /django-admin`` in your site. Create a new user by
+  hitting **Add user**,  then sign in. (`Learn more about how this works
   <http://support.divio.com/local-development/setup/how-to-login-on-aldryn-projects>`_.)
-* In the Wagtail admin at http://192.168.99.100:8000/en/admin/pages/, add a new page by clicking
-  *Add Child Page*
+* In the **Wagtail admin** at ``/admin/pages/``, add a new page by clicking *Add Child Page*
 * Add a title and some content and hit **Publish**
 * Set the page as a root page in the Wagtail admin by going to *Settings > Sites > localhost*
-  http://192.168.99.100:8000/en/admin/sites/. Select the localhost site.
+  ``/admin/sites``. Select the localhost site.
 * In the *Root Page* row select *Choose a different Root Page* and find the new sub-page of it that
   we just created
 * Hit **Save** to continue.
 
-Finally, go to your site - In the Wagtail Explorer, find your page and hit the Live button to see the published page, or visit http://192.168.99.100:8000/en.
+Finally, go to your site - In the Wagtail Explorer, find your page and hit the Live button to see the published page.
 
 Next steps
 ----------
