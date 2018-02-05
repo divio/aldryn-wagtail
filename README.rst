@@ -197,7 +197,7 @@ We also need to create a base template. In the folder templates, add a file base
 Create a new Wagtail page
 -------------------------
 
-* Login to the **Django admin** at`` /django-admin`` in your site. Create a new user by
+* Login to the **Django admin** at ``/django-admin`` in your site. Create a new user by
   hitting **Add user**,  then sign in. (`Learn more about how this works
   <http://support.divio.com/local-development/setup/how-to-login-on-aldryn-projects>`_.)
 * In the **Wagtail admin** at ``/admin/pages/``, add a new page by clicking *Add Child Page*
@@ -214,19 +214,17 @@ Next steps
 ----------
 
 You've now created a new Django Wagtail site on Divio Cloud, deployed it locally in the Divio
-Shell, configured it at the Python level, and started editing it. The next step is to deploy it on
-the web, using the Divio Cloud
+Shell, configured it at the Python level, and started editing it. The next step is to push your
+changes to the Divio CLoud, and deploy them there.
 
-It's worth following our Get Started guide in its entirety to become properly familiar with the
-system and what you can do with it, but in the meantime, if you want to do it the quick way with a
-minimum of explanation, go straight to Step 5: Push changes to your server of that article - it'll
-show you how to push all your changes to the cloud and deploy the project live on the web.
+See our `Developer tutorial <http://docs.divio.com/en/latest/introduction/index.html>`_to become
+properly familiar with the system and what you can do with it.
 
 
 Contributing
 ============
 
-This is a community project. We love to get any feedback in the form of
+This is a community project. We be delighted to get any feedback in the form of
 `issues`_ and `pull requests`_.
 
 
