@@ -2,9 +2,6 @@
 Aldryn Wagtail
 ==============
 
-
-|PyPI Version|
-
 An opinionated Wagtail setup bundled as a Divio Cloud Addon.
 
 This package will auto-configure Wagtail including some extra tools.
