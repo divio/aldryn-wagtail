@@ -97,16 +97,17 @@ Create a ``Page`` model
 
 We need to extend the ``HomePage`` model. Open ``home/models.py`` and replace the entire file with::
 
-    from __future__ import unicode_literals
     from django.db import models
-    from wagtail.wagtailcore.models import Page
-    from wagtail.wagtailcore.fields import RichTextField
-    from wagtail.wagtailadmin.edit_handlers import FieldPanel
+    from wagtail.core.models import Page
+    from wagtail.core.fields import RichTextField
+    from wagtail.admin.edit_handlers import FieldPanel
+
 
     class HomePage(Page):
         body = RichTextField(blank=True)
+
         content_panels = Page.content_panels + [
-            FieldPanel('body', classname="full")
+            FieldPanel('body', classname="full"),
         ]
 
 
