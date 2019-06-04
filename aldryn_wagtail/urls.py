@@ -11,5 +11,6 @@ urlpatterns = [
     url(r'^cms/', include(wagtailadmin_urls)),
     url(r'^documents/', include(wagtaildocs_urls)),
     url(r'^pages/', include(wagtail_urls)),
+    # include for legacy reasons
     url(r'^admin/', admin.site.urls),
 ]
