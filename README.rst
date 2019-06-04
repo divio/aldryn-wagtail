@@ -2,58 +2,71 @@
 Aldryn Wagtail
 ==============
 
+|build| |coverage|
+
 An opinionated Wagtail setup bundled as a Divio Cloud Addon.
 
-This package will auto-configure Wagtail including some extra tools.
+This package will auto configure Django, including admin and some other basic
+packages. It also handles sane configuration of the database connection and
+static and media files.
+
+The goal is to keep the footprint inside the Django website project as small
+as possible, so updating things usually just means bumping a version in
+``requirements.txt`` and no other changes in the project.
+
+This addon still uses the legacy "Aldryn" naming. You can read more about this in our
+`support section <https://support.divio.com/general/faq/essential-knowledge-what-is-aldryn>`_.
 
 
-Getting started
-===============
+Contributing
+============
 
-Create the project
-------------------
+This is a an open-source project. We'll be delighted to receive your
+feedback in the form of issues and pull requests. Before submitting your
+pull request, please review our `contribution guidelines
+<http://docs.django-cms.org/en/latest/contributing/index.html>`_.
 
-* Login to the `Divio Cloud Control Panel <htpps://control.divio.com>`_.
-* **Add new Project**
-
-This will redirect you to the *Add new Project* creation screen. In addition to choosing a *Name*
-for your project, the following options are required to get started with the guide:
-
-* Creation: *New*
-* Region: Choose *United States* or *European Union*
-* Python: *Python 2.7.x* or Python *3.x*
-* Type: *Wagtail*
-* Boilerplates: *Blank Boilerplate*
-
-Hit **Create Project** and continue to the project’s Dashboard.
+We're grateful to all contributors who have helped create and maintain this package.
+Contributors are listed at the `contributors <https://github.com/divio/aldryn-wagtail/graphs/contributors>`_
+section.
 
 
-Set up and run the project locally
-----------------------------------
+Documentation
+=============
 
-Local set-up
-~~~~~~~~~~~~
+See ``REQUIREMENTS`` in the `setup.py <https://github.com/divio/aldryn-wagtail/blob/master/setup.py>`_
+file for additional dependencies:
 
-Install and launch the `Divio App <https://www.divio.com/app>`_.
-
-Select your project and hit **Setup** to get started. The Divio App will run through a number of
-processes to set up the local project. It all happens automatically and takes just a few minutes.
-
-Once this process has completed, you can actually start the local site by getting the local server
-running. Select **Start** to launch it. To open the local site in your browser, click the eye icon.
-
-This will open your project in your default browser. You should see the Wagtail welcome page.
+|python| |wagtail|
 
 
-Launch the Divio Shell
-~~~~~~~~~~~~~~~~~~~~~~
+Installation
+------------
 
-Hit **Divio Shell**, and in a few moments you'll be in a terminal shell session, ready to work with
-your project from the command line.
+Nothing to do. ``aldryn-wagtail`` is part of the Divio Cloud platform.
 
 
-Create a new Wagtail page type
-------------------------------
+Configuration
+-------------
+
+* You can configure the sitename via the settings of the application
+* Media and static is configured through Aldryn Django
+
+
+
+
+
+
+
+
+CHECK THEIR TUTORIAL
+
+
+
+
+
+
+
 
 Wagtail requires you to create a new application containing your new page type, based on its
 provided ``Page`` class.
@@ -218,12 +231,6 @@ See our `Developer tutorial <http://docs.divio.com/en/latest/introduction/index.
 properly familiar with the system and what you can do with it.
 
 
-Contributing
-============
-
-This is a community project. We be delighted to get any feedback in the form of
-`issues`_ and `pull requests`_.
-
 
 Wagtail Support
 ===============
@@ -236,5 +243,29 @@ Divio does not offer support for Wagtail itself. Please check out `wagtail.io`_ 
 .. _aldryn-wagtail: https://github.com/aldryn/aldryn-wagtail
 .. _wagtail.io: https://wagtail.io/
 
-.. |PyPI Version| image:: http://img.shields.io/pypi/v/aldryn-wagtail.svg
-   :target: https://pypi.python.org/pypi/aldryn-wagtail
+
+
+
+
+
+
+Running Tests
+-------------
+
+You can run tests by executing::
+
+    virtualenv env
+    source env/bin/activate
+    pip install -r tests/requirements.txt
+    python setup.py test
+
+
+.. |build| image:: https://travis-ci.org/divio/aldryn-wagtail.svg?branch=support/2.1.x
+    :target: https://travis-ci.org/divio/aldryn-wagtail
+.. |coverage| image:: https://codecov.io/gh/divio/aldryn-wagtail/branch/support/2.1.x/graph/badge.svg
+    :target: https://codecov.io/gh/divio/aldryn-wagtail
+
+.. |python| image:: https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%C2%A03.7-blue.svg
+    :target: https://pypi.org/project/aldryn-wagtail/
+.. |wagtail| image:: https://img.shields.io/badge/wagtail-1.5-blue.svg
+    :target: https://www.wagtail.io/
