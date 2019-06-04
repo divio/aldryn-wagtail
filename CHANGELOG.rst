@@ -10,7 +10,14 @@ Changelog
 * Aligned addon structure with others
 
 
-2.3.0.1 (2018-10-05)
+2.4.0.0 (2019-03-19)
+====================
+
+* Updated Wagtail to 2.4
+* Fixed date on changelog for 2.3.0.1 release
+
+
+2.3.0.1 (2018-11-14)
 ====================
 
 * Updated Wagtail to 2.3
