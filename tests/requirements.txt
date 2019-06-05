@@ -1,6 +1,3 @@
 # other requirements
-djangocms-helper
 tox
 coverage
-# needed to run djangocms-helper
-django-cms

@@ -24,7 +24,7 @@ Contributing
 This is a an open-source project. We'll be delighted to receive your
 feedback in the form of issues and pull requests. Before submitting your
 pull request, please review our `contribution guidelines
-<http://docs.django-cms.org/en/latest/contributing/index.html>`_.
+<https://docs.wagtail.io/en/v2.5/contributing/>`_.
 
 We're grateful to all contributors who have helped create and maintain this package.
 Contributors are listed at the `contributors <https://github.com/divio/aldryn-wagtail/graphs/contributors>`_
