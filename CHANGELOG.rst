@@ -3,7 +3,7 @@ Changelog
 =========
 
 
-2.5.1.1 (unreleased)
+2.5.1.1 (2019-06-05)
 ====================
 
 * Updated Wagtail to 2.5.1
