@@ -75,9 +75,9 @@ You can run tests by executing::
     python setup.py test
 
 
-.. |build| image:: https://travis-ci.org/divio/aldryn-wagtail.svg?branch=support/2.1.x
+.. |build| image:: https://travis-ci.org/divio/aldryn-wagtail.svg?branch=master
     :target: https://travis-ci.org/divio/aldryn-wagtail
-.. |coverage| image:: https://codecov.io/gh/divio/aldryn-wagtail/branch/support/2.1.x/graph/badge.svg
+.. |coverage| image:: https://codecov.io/gh/divio/aldryn-wagtail/branch/master/graph/badge.svg
     :target: https://codecov.io/gh/divio/aldryn-wagtail
 
 .. |python| image:: https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%C2%A03.7-blue.svg
