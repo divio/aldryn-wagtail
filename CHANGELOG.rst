@@ -3,6 +3,19 @@ Changelog
 =========
 
 
+2.11.0.2 (2020-11-03)
+=====================
+
+* Added new ``wagtail.contrib.legacy.sitemiddleware.SiteMiddleware`` middleware
+  to fix installation
+
+
+2.11.0.1 (2020-11-03)
+=====================
+
+* Updated Wagtail to 2.11
+
+
 2.10.2.1 (2020-09-29)
 =====================
 
