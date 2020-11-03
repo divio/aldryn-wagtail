@@ -3,10 +3,16 @@ Changelog
 =========
 
 
+2.11.0.2 (2020-11-03)
+=====================
+
+* Fix issues with Wagtail 2.11 install
+
+
 2.11.0.1 (2020-11-03)
 =====================
 
-* Updated Wagtail to 2.11.0
+* Updated Wagtail to 2.11
 
 
 2.10.2.1 (2020-09-29)
