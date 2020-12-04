@@ -33,7 +33,7 @@ class Form(forms.BaseForm):
         ])
         # admin and cms urls need to be first, since we're overriding the
         # default admin.
-        # These are non-translatable URLs 
+        # These are non-translatable URLs
         # see: https://docs.wagtail.io/en/stable/advanced_topics/i18n.html#adding-a-language-prefix-to-urls
         settings['ADDON_URLS'].insert(
             0,
