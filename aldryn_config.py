@@ -33,8 +33,9 @@ class Form(forms.BaseForm):
         ])
         # admin and cms urls need to be first, since we're overriding the
         # default admin.
-        settings['ADDON_URLS_I18N'].insert(
-            0,
+        # These are non-translatable URLs
+        # see: https://docs.wagtail.io/en/stable/advanced_topics/i18n.html#adding-a-language-prefix-to-urls
+        settings['ADDON_URLS'].insert(            0,
             'aldryn_wagtail.urls',
         )
         settings['ADDON_URLS_I18N_LAST'] = 'aldryn_wagtail.page_urls'

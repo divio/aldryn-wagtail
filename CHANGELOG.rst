@@ -3,6 +3,12 @@ Changelog
 =========
 
 
+2.16.2.1 (2022-07-11)
+=====================
+
+* Update aldryn_config.py to fix wrongly translated admin URLs
+
+
 2.16.2.0 (2022-04-12)
 =====================
 
