@@ -22,7 +22,7 @@ class Form(forms.BaseForm):
             'wagtail.images',
             'wagtail.search',
             'wagtail.admin',
-            'wagtail.core',
+            'wagtail',
 
             'modelcluster',
             'taggit',
