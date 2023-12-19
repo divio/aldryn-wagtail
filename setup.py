@@ -7,7 +7,7 @@ from aldryn_wagtail import __version__
 
 REQUIREMENTS = [
     'aldryn-addons',
-    'wagtail==5.2',
+    'wagtail==5.2.2',
 ]
 
 
